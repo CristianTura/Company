@@ -17,8 +17,8 @@ const ShowCompany = () => {
     }, [])
 
   return (
-    <>
-        <table className="table">
+    <div className=''>
+        <table className="table w-75 m-auto mt-5">
             <thead>
                 <tr>
                 <th scope="col">ID</th>
@@ -37,7 +37,7 @@ const ShowCompany = () => {
             </tbody>
             </table>
        
-    </>
+    </div>
   )
 }
 
