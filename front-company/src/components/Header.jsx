@@ -1,13 +1,7 @@
 import React from 'react'
-import { useNavigate, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
-
-    const navigate = useNavigate();
-
-    const handdleRoute = (route) => {
-        navigate(route);
-    }
 
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
